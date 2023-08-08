@@ -20,7 +20,7 @@ class AccountTest {
         address = new Address("2/12, Muthuraman street, KK nagar, Chennai","600078",false);
         user = new User("Karthick","V", "DSHYT12345", "karthick.v@gmail.com", "9912114432", address);
         account = new SalaryAccount("2023123",10000.00, 0.00, 2.25F, user);
-        System.out.println("The account object is created " + account.toString());
+        System.out.println("The account object is created " + account);
 
     }
     @Test
